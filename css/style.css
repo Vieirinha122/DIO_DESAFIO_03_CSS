@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+html {
+    height: 100%;
+}
+
+/* MENU */
+
+.nav {
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+
+/* ESQUERDA DO NAV */
+.menu-left {
+    padding: 10px;
+    margin: 10px;
+}
+
+#logo-youtube{
+    height: 24px;
+    margin-left: 20px;
+}
+
+/* MEIO DO NAV*/
+.pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+}
+
+.pesquisa input[type="text"] {
+    width: 348px;
+    height: 40px;
+    border: 1px solid rgba(204, 204, 204, 1);
+    border-radius: 40px 0px 0px 40px ;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.pesquisa button {
+    border-radius: 5px;
+    border: 2px solid gray;
+    width: 57px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#botao-pesquisa {
+    margin: 0 17px;
+}
+
+/* DIREITA DO NAV */
+
+.menu-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#foto-perfil {
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+}
+
+/* MAIN */
+
+main {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    height: 100vh;
+}
+
+.main-content {
+    padding: 20px;
+    display: grid;
+    grid-template-columns:  auto;
+    grid-template-rows: auto;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.video-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#logo-dio {
+    width: 42px;
+    height: 42px;
+}
+
+.video-item img {
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.infos {
+    display: grid;
+    place-items: center;
+}
+
+.infos span {
+    display: flex;
+    text-align: justify;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 10px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 1);
+}
+
+.infos p {
+    display: flex;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+    color: rgba(81, 81, 81, 1);
+}
+
+/* ASIDE */
+
+.sidebar {
+    display: grid;
+    margin: 20px;
+    grid-template-columns: 200px;
+    grid-template-rows: 700px;
+}
+
+.menu-item li {
+    display: flex;
+    list-style: none;
+    margin: 10px;
+}
+
+.menu-item span {
+    margin-top: 5px;
+}
+
+.menu-item img {
+    margin: 0px 10px 0px 0px;
+}

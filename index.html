@@ -1,12 +1,209 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YouTube-Grid</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- GOOGLE FONTS -->
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="menu-left">
+          <img
+            id="menu-esquerda"
+            src="./assets/images/menu.png"
+            alt="Menu da esquerda"
+          />
+          <img
+            id="logo-youtube"
+            src="./assets/images/youtube 1.png"
+            alt="Logo do Youtube"
+          />
+        </div>
+        <div class="pesquisa">
+          <input type="text" placeholder="Buscar" />
+          <button>
+            <img
+              id="botao-pesquisa"
+              src="./assets/images/search.png"
+              alt="Botão de Pesquisa"
+            />
+          </button>
+        </div>
+        <div class="menu-right">
+          <img src="./assets/images/video.png" alt="Ícone de Video - Direita" />
+          <img
+            src="./assets/images/bell.png"
+            alt="Ícone de notificações - Direita"
+          />
+          <img
+            id="foto-perfil"
+            src="./assets/images/Avatar.png"
+            alt="Foto de perfil - Direita"
+          />
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="sidebar">
+        <ul class="menu-item">
+          <li>
+            <img src="./assets/images/home.png" alt="Botão de inicio" />
+            <span>Ínicio</span>
+          </li>
+          <li>
+            <img src="./assets/images/compass.png" alt="Botão explorar" />
+            <span>Explorar</span>
+          </li>
+          <li>
+            <img src="./assets/images/youtube.png" alt="Botão Inscrições" />
+            <span>Inscrições</span>
+          </li>
+          <li>
+            <img src="./assets/images/disc.png" alt="Botão YouTube Music" />
+            <span>YouTube Music</span>
+          </li>
+          <li>
+            <img
+              src="./assets/images/thumbs-up.png"
+              alt="Botão Vídeos que gostei"
+            />
+            <span>Vídeos que gostei</span>
+          </li>
+          <li>
+            <img
+              src="./assets/images/clock.png"
+              alt="Botão Assitir mais tarde"
+            />
+            <span>Assitir mais tarde</span>
+          </li>
+          <li>
+            <img src="./assets/images/download.png" alt="Botão Download" />
+            <span>Download</span>
+          </li>
+          <li>
+            <img src="./assets/images/film.png" alt="Botão Filmes" />
+            <span>Filmes</span>
+          </li>
+          <li>
+            <img src="./assets/images/book.png" alt="Botão Aprender" />
+            <span>Aprender</span>
+          </li>
+          <li>
+            <img src="./assets/images/award.png" alt="Botão Esportes" />
+            <span>Esportes</span>
+          </li>
+        </ul>
+      </div>
+      <div class="main-content">
+        <ul class="video-grid">
+          <li class="video-item">
+            <img src="./assets/images/Thumb.png" alt="" />
+            <div class="infos">
+              <img
+                id="logo-dio"
+                src="./assets/images/Channel Avatar.png"
+                alt="Imagem do canal da Dio"
+              />
+              <span>Geração Tech Unimed - BH - Ciência de Dados</span>
+              <p>2,1 mil visualizações Transmitido há 2 dias</p>
+            </div>
+          </li>
+          <li class="video-item">
+            <img src="./assets/images/image 12.png" alt="" />
+            <div class="infos">
+              <img
+                id="logo-dio"
+                src="./assets/images/Channel Avatar.png"
+                alt="Imagem do canal da Dio"
+              />
+              <span>Scrum Talks</span>
+              <p>1,6 mil visualizações Transmitido há 3 dias</p>
+            </div>
+          </li>
+          <li class="video-item">
+            <img src="./assets/images/image 13.png" alt="" />
+            <div class="infos">
+              <img
+                id="logo-dio"
+                src="./assets/images/Channel Avatar.png"
+                alt="Imagem do canal da Dio"
+              />
+              <span>Machine Learning Avançado - Fast Track</span>
+              <p>1,7 mil visualizações Transmitido há 4 dias</p>
+            </div>
+          </li>
+          <li class="video-item">
+            <img src="./assets/images/image 14.png" alt="" />
+            <div class="infos">
+              <img
+                id="logo-dio"
+                src="./assets/images/Channel Avatar.png"
+                alt="Imagem do canal da Dio"
+              />
+              <span>Global Skills #2 - Project Planning</span>
+              <p>2,1 mil visualizações Transmitido há 2 dias</p>
+            </div>
+          </li>
+          <li class="video-item">
+            <img src="./assets/images/image 15.png" alt="" />
+            <div class="infos">
+              <img
+                id="logo-dio"
+                src="./assets/images/Channel Avatar.png"
+                alt="Imagem do canal da Dio"
+              />
+              <span>Como aprender a programar Python do ZERO</span>
+              <p>711 visualizações Transmitido há 2 dias</p>
+            </div>
+          </li>
+          <li class="video-item">
+            <img src="./assets/images/Thumb.png" alt="" />
+            <div class="infos">
+              <img
+                id="logo-dio"
+                src="./assets/images/Channel Avatar.png"
+                alt="Imagem do canal da Dio"
+              />
+              <span>Geração Tech Unimed - BH - Ciência de Dados</span>
+              <p>2,1 mil visualizações Transmitido há 2 dias</p>
+            </div>
+          </li>
+          <li class="video-item">
+            <img src="./assets/images/image 12.png" alt="" />
+            <div class="infos">
+              <img
+                id="logo-dio"
+                src="./assets/images/Channel Avatar.png"
+                alt="Imagem do canal da Dio"
+              />
+              <span>Scrum Talks</span>
+              <p>1,6 mil visualizações Transmitido há 3 dias</p>
+            </div>
+          </li>
+          <li class="video-item">
+            <img src="./assets/images/image 13.png" alt="" />
+            <div class="infos">
+              <img
+                id="logo-dio"
+                src="./assets/images/Channel Avatar.png"
+                alt="Imagem do canal da Dio"
+              />
+              <span>Machine Learning Avançado - Fast Track</span>
+              <p>1,7 mil visualizações Transmitido há 4 dias</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
 </html>
